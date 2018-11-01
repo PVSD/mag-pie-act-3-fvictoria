@@ -10,8 +10,10 @@ public class StringExplorer
 	public static void main(String[] args)
 	{
 		String sample = "The quick brown fox jumped over the lazy dog.";
-		
-		//  Demonstrate the indexOf method.
+
+		int notFoundPsn = sample.indexOf("slow");
+		System.out.println("sample.indexOf(\"slow\") = " + notFoundPsn);
+
 		int position = sample.indexOf("quick");
 		System.out.println ("sample.indexOf(\"quick\") = " + position);
 		
